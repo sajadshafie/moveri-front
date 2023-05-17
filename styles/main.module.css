@@ -1,0 +1,429 @@
+.sportat_bg{
+    width: 100%;
+    height: 430px;
+    background-image: url('/main/nat.svg');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img_sportat{
+    display: block;
+    width: 100%;
+    height:100%;
+
+}
+.detail_sportat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_sportat{
+    font-weight: 900;
+    font-size: 30px;
+    color: #212121;
+}
+.category_sportat{
+    color: #212121;
+    font-weight: 600;
+    font-size: 20px;
+}
+.search_container{
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 80px;
+    padding: 13px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category_item{
+    width: 230px;
+    flex: 80%;
+    border-right: 1px solid
+    #959499;
+    padding-right:20px ;
+}
+
+.img_category{
+    padding-right: 17px;
+}
+.category_text{
+    margin: 0;
+    
+}
+.title_item{
+    color: #959499;
+    font-size: 14px;
+    font-size: 400;
+}
+.select_item{
+    font-weight: 600;
+    font-size: 16px;
+}
+.search_category{
+    background-color: #FF9F1C;
+    padding: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon_box{
+    background-color: #FF9F1C;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    border-radius: 100px;
+}
+.box_toturial{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;   
+    align-items: center;
+}
+.des_item{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212121;
+}
+.link_item{
+    flex: 0 0 12%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.title_item{
+    font-weight: 700;
+font-size: 18px;
+color: #212121;
+}
+.discover_container{
+    width: 100%;
+    margin: 95px 0 169px 0;
+    padding: 0 120px;
+}
+.discover_item_half{
+    flex: 0 0 30%;
+    margin: 0 20px 20px 0;
+    position: relative;
+
+}
+.box_category_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 70%;
+}
+.detail_offer{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    /* background: rgba(255,255,255,1);
+    background: linear-gradient(185deg, rgba(255,255,255,1) 38%, rgba(124,124,124,1) 97%, rgba(186,186,186,1) 100%); */
+    width: 100%;
+}
+.img_full_discover{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.title_discover_item{
+    font-weight: 700;
+font-size: 20px;
+margin: 0;
+margin-bottom: 5px;
+}
+.discover_item_full{
+    
+    flex: 0  0 30%;
+    height: 521px;
+    position: relative;
+}
+.title_discover{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.destination_container{
+    background: #E1F9FC;
+    height: 500px;
+    display: flex;
+    align-items: center ;
+}
+.experience_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.experience_detail{
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+}
+.video_exp_box{
+    position: relative;
+}
+.play_exp_box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play_icon{
+    
+    width: 84px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background:#12A3BA 50%/ cover 
+    border-box /* background-origin */
+    padding-box /* background-clip */;
+    border: 18px solid rgba(255, 255, 255, 0.3);
+    /* backdrop-filter: blur(8px); */
+    cursor: pointer;
+}
+.ds1{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: -5;
+}
+.ds2{
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    z-index: -5;
+}
+.detail_exp_item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.txt_exp{
+    flex: 0 0 94%;
+}
+.insp_item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.col_img{
+    display: flex;
+    flex-direction: column;
+}
+.inp_container{
+    margin-top: 160px;
+}
+.card_ppl{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(120, 123, 154, 0.15);
+    border-radius: 20px;
+    /* margin-right: 15px; */
+}
+.detail_ppl{
+    padding: 10px 15px;
+}
+.line_gray{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+.img_card_ppl{
+    height: 190px;
+    max-width: 281px;
+}
+.img_res{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.reviews_ppl{
+    font-size: 10px;
+    color: #959499;
+}
+.price_ppl{
+    font-size: 12px;
+    color: #959499; 
+}
+.buld_price{
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+}
+.pad_sm{
+    padding-right: 3px;
+}
+.popular_container{
+    margin-top: 100px
+}
+.box_slider_ppl{
+    width: 85%;
+    margin: 0 auto;
+}
+.hol_container{
+    margin: 0 auto;
+    width: 85%;
+}
+.img_hol{
+    flex: 0 0 40%;
+    height: 100%;
+    position: relative;
+    margin-right: 90px;
+}
+.detail_hol{
+    flex: 0 0 44%;   
+}
+.bg_img_hold{
+    position: absolute;
+    top: 15%;
+    right: -27px;
+    z-index: -5;
+    width: 110%;
+    height: 70%;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.title_hold{
+    color: #212121;
+    font-weight: 700;
+    font-size: 25px;
+}
+.image_hold{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+/* #####################  TRAVELER #################### */
+.travel_container{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin:  0 auto ;
+    
+}
+
+.card_travel{
+    padding: 20px 30px;
+    background: #ffffff;
+    box-shadow: 0px 4px 25px rgba(18, 163, 186, 0.15);
+    border-radius: 20px;
+    flex: 0 0 30%;
+    color: #212121;
+}
+.des_travel{
+    height: 130px;
+    overflow-y: hidden;
+    width: 100%; 
+    /* white-space: nowrap; */
+}
+.travel_pos{
+    position: absolute;
+    top: -212px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/* ########## Stories ############## */
+
+.stores_container{
+    background-image: url('/main/bg-blue.svg');
+    height: 936px;
+    position: relative;
+    margin-top: 410px;
+}
+.stories_slider{
+    flex:0 0 41%;
+    position: relative; 
+}
+.title_detail_stories{
+    font-weight: 700;
+font-size: 18px;
+color: #212121;
+}
+.detail_stories{
+    flex: 0 0 41%;
+}
+.latest_stories{
+    padding-top: 325px;
+    margin: 0 auto;
+    width: 85%;
+}
+.btn_read_more {
+    padding: 11px 46px;
+    cursor: pointer;
+    background: #FF9F1C;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.des_p{
+    color: #212121;
+    font-size: 16px;
+    margin-bottom:25px ;
+}
+.img_stories{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.img_stories:hover{
+    transform: scale(1.1);
+    
+}
+.box_slide_stories{
+    position: relative;
+}
+/* ########## NewMOveriiii############### */
+.newMoveri_container{
+    margin: 0 auto;
+    width: 85%;
+}
+.f_46{
+    flex: 0 0 46%;
+}
+.detail_newMoveri{
+    flex: 0 0 36%;
+}
+
+.img_new2{
+    position: absolute;
+    top: 30px;
+    left: -20%;
+    width: 250px;
+    height: 183px;
+}
+.img_new3{
+    position: absolute;
+    top: 300px;
+    right: 20%;
+    width: 170px;
+    height: 132px;
+}
